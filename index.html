@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Near Me</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+		
+</head>
+<body>
+	<div class="container">
+		<div class="headline">
+			<h1>Find out your local weather for today and the rest of the week!</h1>
+		</div>
+		<div class="row">
+			<div id="currentWeather" class="col-md-2">
+			  	<div class="questionBox customSize">
+			  		<h3 class="tagline">Current Weather</h3>
+			  		<img id="weatherImage" src=""/>
+			  		<h5 id="weather"></h5>
+			  		<h5 id="temperature"></h5>
+			  		<h4 id="location"></h4>
+			  	</div>
+			</div>
+			<div id="forecast" class="col-md-10">
+			  	<div class="questionBox">
+			  		<h3 class="tagline">5-Day Forecast</h3>
+			  		<div id="weatherContent">
+				  	</div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<script
+		src="http://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>  
+</body>
+</html>
